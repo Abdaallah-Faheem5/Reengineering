@@ -1,0 +1,27 @@
+{
+  // Created by ts-migrate. A starting point for a migrated project;
+  // adjust as your codebase needs (see the ts-migrate README FAQ).
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "commonjs",
+    // Renamed CommonJS files often have no import/export statements yet;
+    // without this they would be treated as scripts sharing one global scope.
+    "moduleDetection": "force",
+    "jsx": "react",
+    "esModuleInterop": true,
+    // Files a staged migration has not converted yet still resolve, so
+    // imports crossing into the JavaScript side type as their contents
+    // instead of erroring. Only the rename step converts those files.
+    "allowJs": true,
+    // JSON imports (package.json, fixtures, locale data) type as their
+    // contents instead of failing to resolve.
+    "resolveJsonModule": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "skipLibCheck": true,
+    // @types packages present at migration time, pinned because TypeScript 6
+    // no longer loads node_modules/@types automatically. Add new @types
+    // packages here after installing them.
+    "types": ["body-parser", "connect", "estree", "express", "express-serve-static-core", "http-errors", "json-schema", "node", "qs", "range-parser", "send", "serve-static", "webidl-conversions", "whatwg-url"]
+  }
+}

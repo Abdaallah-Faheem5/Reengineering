@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="1000" height="680" preserveAspectRatio="xMinYMin meet" viewBox="0 0 1000 680" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>Program modularization before and after</title>
+	<desc>Technical-role folders become six feature folders. Solid arrows are saved DOT relationships; dashed arrows add source-verified dependencies.</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="1000" height="680"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-680)" style="clip-path: url(#clip)">
+		<g transform="">
+			<rect x="0" y="0" width="1000" height="680" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<rect x="8" y="86" width="474" height="535" rx="10" ry="10" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(94%,96%,97%); fill-rule: evenodd;"/>
+			<rect x="518" y="70" width="474" height="551" rx="10" ry="10" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(92%,96%,96%); fill-rule: evenodd;"/>
+			<text x="18" y="653" style="font-family: Calibri, Arial, sans-serif; font-weight: 700; font-size: 23px;fill: rgb(9%,20%,29%); stroke:none;" transform="translate(0,1306) scale(1,-1)">PROGRAM MODULARIZATION</text>
+			<text x="26" y="593" style="font-family: Calibri, Arial, sans-serif; font-weight: 700; font-size: 19px;fill: rgb(9%,20%,29%); stroke:none;" transform="translate(0,1186) scale(1,-1)">BEFORE / folders by technical role</text>
+			<text x="536" y="593" style="font-family: Calibri, Arial, sans-serif; font-weight: 700; font-size: 19px;fill: rgb(9%,20%,29%); stroke:none;" transform="translate(0,1186) scale(1,-1)">AFTER / folders by feature</text>
+			<rect x="40" y="503" width="175" height="56" rx="7" ry="7" style="stroke: rgb(65%,75%,81%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="89.86083984375" y="526.0" style="font-family: Calibri, Arial, sans-serif; font-weight: 700; font-size: 18px;fill: rgb(9%,20%,29%); stroke:none;" transform="translate(0,1052) scale(1,-1)">src/app.ts</text>
+			<rect x="40" y="400" width="175" height="60" rx="7" ry="7" style="stroke: rgb(65%,75%,81%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="85.1015625" y="434.0" style="font-family: Calibri, Arial, sans-serif; font-weight: 700; font-size: 18px;fill: rgb(9%,20%,29%); stroke:none;" transform="translate(0,868) scale(1,-1)">src/routes/</text>
+			<text x="86.7373046875" y="414.0" style="font-family: Calibri, Arial, sans-serif; font-size: 14px;fill: rgb(9%,20%,29%); stroke:none;" transform="translate(0,828) scale(1,-1)">all six features</text>
+			<rect x="40" y="296" width="175" height="60" rx="7" ry="7" style="stroke: rgb(65%,75%,81%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="68.876953125" y="330.0" style="font-family: Calibri, Arial, sans-serif; font-weight: 700; font-size: 18px;fill: rgb(9%,20%,29%); stroke:none;" transform="translate(0,660) scale(1,-1)">src/controllers/</text>
+			<text x="86.7373046875" y="310.0" style="font-family: Calibri, Arial, sans-serif; font-size: 14px;fill: rgb(9%,20%,29%); stroke:none;" transform="translate(0,620) scale(1,-1)">all six features</text>
+			<rect x="40" y="194" width="175" height="60" rx="7" ry="7" style="stroke: rgb(65%,75%,81%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="79.53369140625" y="228.0" style="font-family: Calibri, Arial, sans-serif; font-weight: 700; font-size: 18px;fill: rgb(9%,20%,29%); stroke:none;" transform="translate(0,456) scale(1,-1)">src/services/</text>
+			<text x="86.7373046875" y="208.0" style="font-family: Calibri, Arial, sans-serif; font-size: 14px;fill: rgb(9%,20%,29%); stroke:none;" transform="translate(0,416) scale(1,-1)">all six features</text>
+			<rect x="40" y="107" width="175" height="50" rx="7" ry="7" style="stroke: rgb(65%,75%,81%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="81.88916015625" y="136.0" style="font-family: Calibri, Arial, sans-serif; font-weight: 700; font-size: 18px;fill: rgb(9%,20%,29%); stroke:none;" transform="translate(0,272) scale(1,-1)">src/models/</text>
+			<text x="108.13037109375" y="116.0" style="font-family: Calibri, Arial, sans-serif; font-size: 14px;fill: rgb(9%,20%,29%); stroke:none;" transform="translate(0,232) scale(1,-1)">shared</text>
+			<rect x="277" y="400" width="182" height="60" rx="7" ry="7" style="stroke: rgb(65%,75%,81%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="312.31689453125" y="434.0" style="font-family: Calibri, Arial, sans-serif; font-weight: 700; font-size: 18px;fill: rgb(9%,20%,29%); stroke:none;" transform="translate(0,868) scale(1,-1)">src/validation/</text>
+			<text x="327.2373046875" y="414.0" style="font-family: Calibri, Arial, sans-serif; font-size: 14px;fill: rgb(9%,20%,29%); stroke:none;" transform="translate(0,828) scale(1,-1)">all six features</text>
+			<rect x="277" y="296" width="182" height="60" rx="7" ry="7" style="stroke: rgb(65%,75%,81%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="301.30859375" y="330.0" style="font-family: Calibri, Arial, sans-serif; font-weight: 700; font-size: 18px;fill: rgb(9%,20%,29%); stroke:none;" transform="translate(0,660) scale(1,-1)">src/middlewares/</text>
+			<text x="348.63037109375" y="310.0" style="font-family: Calibri, Arial, sans-serif; font-size: 14px;fill: rgb(9%,20%,29%); stroke:none;" transform="translate(0,620) scale(1,-1)">shared</text>
+			<rect x="277" y="194" width="182" height="60" rx="7" ry="7" style="stroke: rgb(65%,75%,81%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="333.7490234375" y="228.0" style="font-family: Calibri, Arial, sans-serif; font-weight: 700; font-size: 18px;fill: rgb(9%,20%,29%); stroke:none;" transform="translate(0,456) scale(1,-1)">src/utils/</text>
+			<text x="348.63037109375" y="208.0" style="font-family: Calibri, Arial, sans-serif; font-size: 14px;fill: rgb(9%,20%,29%); stroke:none;" transform="translate(0,416) scale(1,-1)">shared</text>
+			<path d="M 128,503 L 128,460 Z" style="stroke: rgb(7%,49%,54%); stroke-linecap: butt; stroke-width: 1.7; stroke-dasharray: 6, 4;"/>
+			<polygon points="128 460, 131.356 466.1431, 124.644 466.1431" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(7%,49%,54%); fill-rule: evenodd;"/>
+			<text x="138" y="479" style="font-family: Calibri, Arial, sans-serif; font-size: 14px;fill: rgb(7%,49%,54%); stroke:none;" transform="translate(0,958) scale(1,-1)">C: mounts</text>
+			<path d="M 128,400 L 128,356 Z" style="stroke: rgb(7%,49%,54%); stroke-linecap: butt; stroke-width: 1.7; stroke-dasharray: 6, 4;"/>
+			<polygon points="128 356, 131.356 362.1431, 124.644 362.1431" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(7%,49%,54%); fill-rule: evenodd;"/>
+			<text x="138" y="375" style="font-family: Calibri, Arial, sans-serif; font-size: 14px;fill: rgb(7%,49%,54%); stroke:none;" transform="translate(0,750) scale(1,-1)">C: delegates</text>
+			<path d="M 128,296 L 128,254 Z" style="stroke: rgb(7%,49%,54%); stroke-linecap: butt; stroke-width: 1.7; stroke-dasharray: 6, 4;"/>
+			<polygon points="128 254, 131.356 260.1431, 124.644 260.1431" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(7%,49%,54%); fill-rule: evenodd;"/>
+			<text x="138" y="273" style="font-family: Calibri, Arial, sans-serif; font-size: 14px;fill: rgb(7%,49%,54%); stroke:none;" transform="translate(0,546) scale(1,-1)">C: calls</text>
+			<path d="M 128,194 L 128,157 Z" style="stroke: rgb(7%,49%,54%); stroke-linecap: butt; stroke-width: 1.7; stroke-dasharray: 6, 4;"/>
+			<polygon points="128 157, 131.356 163.1431, 124.644 163.1431" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(7%,49%,54%); fill-rule: evenodd;"/>
+			<text x="138" y="171" style="font-family: Calibri, Arial, sans-serif; font-size: 14px;fill: rgb(7%,49%,54%); stroke:none;" transform="translate(0,342) scale(1,-1)">C: queries</text>
+			<path d="M 215,430 L 277,430 Z" style="stroke: rgb(31%,38%,43%); stroke-linecap: butt; stroke-width: 1.7;"/>
+			<polygon points="277 430, 270.8569 433.356, 270.8569 426.644" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(31%,38%,43%); fill-rule: evenodd;"/>
+			<text x="216" y="470" style="font-family: Calibri, Arial, sans-serif; font-size: 14px;fill: rgb(31%,38%,43%); stroke:none;" transform="translate(0,940) scale(1,-1)">D: validates</text>
+			<path d="M 215,416 L 248,416 Z" style="stroke: rgb(31%,38%,43%); stroke-linecap: butt; stroke-width: 1.7;"/>
+			<path d="M 248,416 L 248,326 Z" style="stroke: rgb(31%,38%,43%); stroke-linecap: butt; stroke-width: 1.7;"/>
+			<path d="M 248,326 L 277,326 Z" style="stroke: rgb(31%,38%,43%); stroke-linecap: butt; stroke-width: 1.7;"/>
+			<polygon points="277 326, 270.8569 329.356, 270.8569 322.644" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(31%,38%,43%); fill-rule: evenodd;"/>
+			<text x="263" y="374" style="font-family: Calibri, Arial, sans-serif; font-size: 14px;fill: rgb(31%,38%,43%); stroke:none;" transform="translate(0,748) scale(1,-1)">D: guards</text>
+			<path d="M 215,223 L 277,223 Z" style="stroke: rgb(31%,38%,43%); stroke-linecap: butt; stroke-width: 1.7;"/>
+			<polygon points="277 223, 270.8569 226.356, 270.8569 219.644" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(31%,38%,43%); fill-rule: evenodd;"/>
+			<text x="221" y="237" style="font-family: Calibri, Arial, sans-serif; font-size: 14px;fill: rgb(31%,38%,43%); stroke:none;" transform="translate(0,474) scale(1,-1)">D: uses</text>
+			<text x="277" y="169" style="font-family: Calibri, Arial, sans-serif; font-size: 14px;fill: rgb(31%,38%,43%); stroke:none;" transform="translate(0,338) scale(1,-1)">Named-import edges shown</text>
+			<text x="277" y="151" style="font-family: Calibri, Arial, sans-serif; font-size: 14px;fill: rgb(31%,38%,43%); stroke:none;" transform="translate(0,302) scale(1,-1)">for representative consumers.</text>
+			<rect x="553" y="503" width="400" height="56" rx="7" ry="7" style="stroke: rgb(65%,75%,81%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="715.36083984375" y="526.0" style="font-family: Calibri, Arial, sans-serif; font-weight: 700; font-size: 18px;fill: rgb(9%,20%,29%); stroke:none;" transform="translate(0,1052) scale(1,-1)">src/app.ts</text>
+			<rect x="538" y="209" width="434" height="251" rx="9" ry="9" style="stroke: rgb(60%,74%,74%); stroke-linecap: butt; stroke-width: 1; fill: rgb(87%,93%,93%); fill-rule: evenodd;"/>
+			<text x="554" y="434" style="font-family: Calibri, Arial, sans-serif; font-weight: 700; font-size: 16px;fill: rgb(9%,20%,29%); stroke:none;" transform="translate(0,868) scale(1,-1)">src/modules/</text>
+			<rect x="554" y="350" width="190" height="57" rx="7" ry="7" style="stroke: rgb(65%,75%,81%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="627.91064453125" y="390" style="font-family: Calibri, Arial, sans-serif; font-weight: 700; font-size: 18px;fill: rgb(9%,20%,29%); stroke:none;" transform="translate(0,780) scale(1,-1)">auth/</text>
+			<text x="596.814453125" y="372" style="font-family: Calibri, Arial, sans-serif; font-size: 14px;fill: rgb(9%,20%,29%); stroke:none;" transform="translate(0,744) scale(1,-1)">routes / controller</text>
+			<text x="595.1806640625" y="357" style="font-family: Calibri, Arial, sans-serif; font-size: 14px;fill: rgb(9%,20%,29%); stroke:none;" transform="translate(0,714) scale(1,-1)">service / validation</text>
+			<rect x="765" y="350" width="190" height="57" rx="7" ry="7" style="stroke: rgb(65%,75%,81%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="841.6044921875" y="390" style="font-family: Calibri, Arial, sans-serif; font-weight: 700; font-size: 18px;fill: rgb(9%,20%,29%); stroke:none;" transform="translate(0,780) scale(1,-1)">cart/</text>
+			<text x="807.814453125" y="372" style="font-family: Calibri, Arial, sans-serif; font-size: 14px;fill: rgb(9%,20%,29%); stroke:none;" transform="translate(0,744) scale(1,-1)">routes / controller</text>
+			<text x="806.1806640625" y="357" style="font-family: Calibri, Arial, sans-serif; font-size: 14px;fill: rgb(9%,20%,29%); stroke:none;" transform="translate(0,714) scale(1,-1)">service / validation</text>
+			<rect x="554" y="284" width="190" height="57" rx="7" ry="7" style="stroke: rgb(65%,75%,81%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="612.70556640625" y="324" style="font-family: Calibri, Arial, sans-serif; font-weight: 700; font-size: 18px;fill: rgb(9%,20%,29%); stroke:none;" transform="translate(0,648) scale(1,-1)">category/</text>
+			<text x="596.814453125" y="306" style="font-family: Calibri, Arial, sans-serif; font-size: 14px;fill: rgb(9%,20%,29%); stroke:none;" transform="translate(0,612) scale(1,-1)">routes / controller</text>
+			<text x="595.1806640625" y="291" style="font-family: Calibri, Arial, sans-serif; font-size: 14px;fill: rgb(9%,20%,29%); stroke:none;" transform="translate(0,582) scale(1,-1)">service / validation</text>
+			<rect x="765" y="284" width="190" height="57" rx="7" ry="7" style="stroke: rgb(65%,75%,81%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="835.53564453125" y="324" style="font-family: Calibri, Arial, sans-serif; font-weight: 700; font-size: 18px;fill: rgb(9%,20%,29%); stroke:none;" transform="translate(0,648) scale(1,-1)">order/</text>
+			<text x="807.814453125" y="306" style="font-family: Calibri, Arial, sans-serif; font-size: 14px;fill: rgb(9%,20%,29%); stroke:none;" transform="translate(0,612) scale(1,-1)">routes / controller</text>
+			<text x="806.1806640625" y="291" style="font-family: Calibri, Arial, sans-serif; font-size: 14px;fill: rgb(9%,20%,29%); stroke:none;" transform="translate(0,582) scale(1,-1)">service / validation</text>
+			<rect x="554" y="218" width="190" height="57" rx="7" ry="7" style="stroke: rgb(65%,75%,81%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="615.72021484375" y="258" style="font-family: Calibri, Arial, sans-serif; font-weight: 700; font-size: 18px;fill: rgb(9%,20%,29%); stroke:none;" transform="translate(0,516) scale(1,-1)">product/</text>
+			<text x="596.814453125" y="240" style="font-family: Calibri, Arial, sans-serif; font-size: 14px;fill: rgb(9%,20%,29%); stroke:none;" transform="translate(0,480) scale(1,-1)">routes / controller</text>
+			<text x="595.1806640625" y="225" style="font-family: Calibri, Arial, sans-serif; font-size: 14px;fill: rgb(9%,20%,29%); stroke:none;" transform="translate(0,450) scale(1,-1)">service / validation</text>
+			<rect x="765" y="218" width="190" height="57" rx="7" ry="7" style="stroke: rgb(65%,75%,81%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="827.6650390625" y="258" style="font-family: Calibri, Arial, sans-serif; font-weight: 700; font-size: 18px;fill: rgb(9%,20%,29%); stroke:none;" transform="translate(0,516) scale(1,-1)">wishlist/</text>
+			<text x="807.814453125" y="240" style="font-family: Calibri, Arial, sans-serif; font-size: 14px;fill: rgb(9%,20%,29%); stroke:none;" transform="translate(0,480) scale(1,-1)">routes / controller</text>
+			<text x="806.1806640625" y="225" style="font-family: Calibri, Arial, sans-serif; font-size: 14px;fill: rgb(9%,20%,29%); stroke:none;" transform="translate(0,450) scale(1,-1)">service / validation</text>
+			<path d="M 753,503 L 753,460 Z" style="stroke: rgb(7%,49%,54%); stroke-linecap: butt; stroke-width: 1.7; stroke-dasharray: 6, 4;"/>
+			<polygon points="753 460, 756.356 466.1431, 749.644 466.1431" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(7%,49%,54%); fill-rule: evenodd;"/>
+			<text x="765" y="479" style="font-family: Calibri, Arial, sans-serif; font-size: 14px;fill: rgb(7%,49%,54%); stroke:none;" transform="translate(0,958) scale(1,-1)">C: mounts six routers</text>
+			<rect x="538" y="107" width="190" height="60" rx="7" ry="7" style="stroke: rgb(65%,75%,81%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="587.38916015625" y="141.0" style="font-family: Calibri, Arial, sans-serif; font-weight: 700; font-size: 18px;fill: rgb(9%,20%,29%); stroke:none;" transform="translate(0,282) scale(1,-1)">src/models/</text>
+			<text x="579.41650390625" y="121.0" style="font-family: Calibri, Arial, sans-serif; font-size: 14px;fill: rgb(9%,20%,29%); stroke:none;" transform="translate(0,242) scale(1,-1)">shared persistence</text>
+			<rect x="762" y="107" width="210" height="60" rx="7" ry="7" style="stroke: rgb(65%,75%,81%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="797.67626953125" y="141.0" style="font-family: Calibri, Arial, sans-serif; font-weight: 700; font-size: 18px;fill: rgb(9%,20%,29%); stroke:none;" transform="translate(0,282) scale(1,-1)">middleware + utils</text>
+			<text x="797.7041015625" y="121.0" style="font-family: Calibri, Arial, sans-serif; font-size: 14px;fill: rgb(9%,20%,29%); stroke:none;" transform="translate(0,242) scale(1,-1)">shared policies / helpers</text>
+			<path d="M 633,209 L 633,167 Z" style="stroke: rgb(7%,49%,54%); stroke-linecap: butt; stroke-width: 1.7; stroke-dasharray: 6, 4;"/>
+			<polygon points="633 167, 636.356 173.1431, 629.644 173.1431" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(7%,49%,54%); fill-rule: evenodd;"/>
+			<text x="642" y="184" style="font-family: Calibri, Arial, sans-serif; font-size: 14px;fill: rgb(7%,49%,54%); stroke:none;" transform="translate(0,368) scale(1,-1)">C: models</text>
+			<path d="M 954,209 L 954,167 Z" style="stroke: rgb(31%,38%,43%); stroke-linecap: butt; stroke-width: 1.7;"/>
+			<polygon points="954 167, 957.356 173.1431, 950.644 173.1431" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(31%,38%,43%); fill-rule: evenodd;"/>
+			<text x="763" y="184" style="font-family: Calibri, Arial, sans-serif; font-size: 14px;fill: rgb(31%,38%,43%); stroke:none;" transform="translate(0,368) scale(1,-1)">D: guards / helpers</text>
+			<text x="538" y="94" style="font-family: Calibri, Arial, sans-serif; font-size: 14px;fill: rgb(31%,38%,43%); stroke:none;" transform="translate(0,188) scale(1,-1)">Inside: route -C-&gt; controller -C-&gt; service;</text>
+			<text x="538" y="77" style="font-family: Calibri, Arial, sans-serif; font-size: 14px;fill: rgb(31%,38%,43%); stroke:none;" transform="translate(0,154) scale(1,-1)">route -D-&gt; validator. Paths are listed in the report.</text>
+			<path d="M 27,53 L 80,53 Z" style="stroke: rgb(31%,38%,43%); stroke-linecap: butt; stroke-width: 1.7;"/>
+			<polygon points="80 53, 73.85692 56.35598, 73.85692 49.64402" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(31%,38%,43%); fill-rule: evenodd;"/>
+			<text x="91" y="48" style="font-family: Calibri, Arial, sans-serif; font-size: 14px;fill: rgb(31%,38%,43%); stroke:none;" transform="translate(0,96) scale(1,-1)">D: captured in saved DOT</text>
+			<path d="M 510,53 L 563,53 Z" style="stroke: rgb(7%,49%,54%); stroke-linecap: butt; stroke-width: 1.7; stroke-dasharray: 6, 4;"/>
+			<polygon points="563 53, 556.8569 56.35598, 556.8569 49.64402" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(7%,49%,54%); fill-rule: evenodd;"/>
+			<text x="574" y="48" style="font-family: Calibri, Arial, sans-serif; font-size: 14px;fill: rgb(7%,49%,54%); stroke:none;" transform="translate(0,96) scale(1,-1)">C: verified in current code</text>
+			<text x="27" y="27" style="font-family: Calibri, Arial, sans-serif; font-size: 14px;fill: rgb(31%,38%,43%); stroke:none;" transform="translate(0,54) scale(1,-1)">Arrows: consumer -&gt; dependency. Before C links use the earlier source trace.</text>
+			<text x="27" y="9" style="font-family: Calibri, Arial, sans-serif; font-size: 14px;fill: rgb(31%,38%,43%); stroke:none;" transform="translate(0,18) scale(1,-1)">Selective view; config/ remains shared. All six features keep their internal layers.</text>
+		</g>
+	</g>
+</svg>
